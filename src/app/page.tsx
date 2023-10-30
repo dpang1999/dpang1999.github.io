@@ -1,6 +1,6 @@
 import Link from "next/link";
 import NavLinks from "../components/NavLinks";
-import { Github } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 import NavLinkWithIcon from "../components/NavLinkWithIcon";
 
 export default function Home() {
@@ -12,6 +12,9 @@ export default function Home() {
           <NavLinks />
           <NavLinkWithIcon href="https://github.com/dpang1999" icon={Github}>
             Github
+          </NavLinkWithIcon>
+          <NavLinkWithIcon href="https://www.linkedin.com/in/daniel-pang-8a604417b" icon={Linkedin}>
+            LinkedIn
           </NavLinkWithIcon>
         </div>
       </div>

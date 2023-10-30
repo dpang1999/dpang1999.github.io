@@ -1,6 +1,6 @@
 import NavLinkWithIcon from "@dpang1999/resume/components/NavLinkWithIcon";
 import NavLinks from "@dpang1999/resume/components/NavLinks";
-import { Github } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 import Link from "next/link";
 
 interface Props {
@@ -19,9 +19,18 @@ const ResumeLayout = (props: Props) => {
           </Link>
           <NavLinks />
         </div>
-        <NavLinkWithIcon href="https://github.com/dpang1999" icon={Github}>
-          Github
-        </NavLinkWithIcon>
+        <div>
+          <NavLinkWithIcon 
+            href="https://github.com/dpang1999" 
+            icon={Github}>
+            Github
+          </NavLinkWithIcon>
+          <NavLinkWithIcon
+            href="https://www.linkedin.com/in/daniel-pang-8a604417b"
+            icon={Linkedin}>
+            LinkedIn
+          </NavLinkWithIcon>
+        </div>
       </div>
       <div className="col-span-5 p-5">{children}</div>
     </div>
