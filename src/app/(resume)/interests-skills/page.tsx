@@ -13,6 +13,9 @@ including shelter building, fire starting, cooking, and water collection</li>
 
             <Segment title="Miscellaneous">
                 <li>Played in an organized youth hockey league for 6 seasons</li>
+                <li>Able to speak Cantonese</li>
+                <li>Played Piano for 10+ years</li>
+                <li>Can type at a rate of 100+ Words per Minute</li>
                 <li>Developing a Discord bot using .NET 6</li>
             </Segment>
 

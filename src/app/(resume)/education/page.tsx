@@ -12,7 +12,7 @@ const Education = () => {
             </Segment>
 
             <Segment title="Queen's University - BCH in Software Design, 4.11/4.30 GPA - Class of 2022">
-                <li>Working knowledge in Python, Java, HTML, CSS, JavaScript, Bash, Haskell, Prolog, C, C#, .NET, XML</li>
+                <li>Working knowledge in Python, Java, HTML, CSS, JavaScript, Bash, Haskell, Prolog, C, C#, .NET, JSON</li>
                 <li>Working knowledge in data structures, programming paradigms, software quality assurance, and 
 computer and software architecture</li>
                 <li>Built a mobile-friendly website using HTML, CSS, and JavaScript to meet changing requirements</li>

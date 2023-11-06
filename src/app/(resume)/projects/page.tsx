@@ -4,6 +4,10 @@ const Projects = () => {
     return (
         <main className="text-white">
             <h1 className="text-3xl">Projects</h1>
+            <Segment title="Resume Site (2023)" >
+                <li>This resume site has been developed using Next.js, a React framework, and Tailwind CSS, a CSS framework</li>
+                <li>The source code for this project can be seen <a className="text-blue-500 visited:text-indigo-500" href="https://github.com/dpang1999/resume-site">here</a></li>
+            </Segment>
             <Segment title="Developer – covid-tracker.ca – (2020)">
                 <li>Worked with a small team to develop a website to display Covid-19 cases in Ontario over time
 separated by public health units and case type</li>
