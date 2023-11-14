@@ -27,8 +27,8 @@ separated by public health units and case type</li>
                 <li>Responsible for the interpretation and displaying of data onto a map, including the interface</li>
                 <li>This side project contained 3000+ lines of code utilizing Python, HTML, JavaScript, and CSS to source 
 and manipulate data, interact with a Firebase database, and to display a frontend webpage</li>
-                <a className="inline-block" href="https://github.com/dpang1999/covid-tracker">
-                    <img className="h-72 w-100" src="/covid-tracker.png" alt="A screenshot of covid-tracker.ca displaying covid cases around Ontario"/>
+                <a className="inline-block p-3" href="https://github.com/dpang1999/covid-tracker">
+                    <img className="rounded-lg h-72 w-100" src="/covid-tracker.png" alt="A screenshot of covid-tracker.ca displaying covid cases around Ontario"/>
                 </a>
             </Segment>
             <Segment title="Developer - WaveNotes - (2020)">
@@ -36,7 +36,11 @@ and manipulate data, interact with a Firebase database, and to display a fronten
                 <li>The app would assist the user in taking notes during a presentation by recording 
                     audio and automatically pairing sections of written notes to the audio waveform </li>
                 <li>The goal is to assist the user in returning to their notes after the presentation and reviewing and/or amending the notes</li>
-                <ReactPlayer url="https://www.youtube.com/watch?v=kmJUv8NBITw"/>
+                <div className="p-3">
+                    <div className="aspect-video h-[288px] rounded-lg overflow-hidden">
+                        <ReactPlayer width="100%" height="100%" url="https://www.youtube.com/watch?v=kmJUv8NBITw"/>
+                    </div>
+                </div>
                 
             </Segment>
 
