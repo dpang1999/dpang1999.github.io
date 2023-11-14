@@ -1,4 +1,4 @@
-import Segment from "@dpang1999/resume/components/Segment"
+import Segment from "@dpang1999/resume/app/_components/Segment"
 
 const Education = () => {
     return (

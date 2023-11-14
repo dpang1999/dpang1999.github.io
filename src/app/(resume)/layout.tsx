@@ -1,5 +1,5 @@
-import NavLinkWithIcon from "@dpang1999/resume/components/NavLinkWithIcon";
-import NavLinks from "@dpang1999/resume/components/NavLinks";
+import NavLinkWithIcon from "@dpang1999/resume/app/_components/NavLinkWithIcon";
+import NavLinks from "@dpang1999/resume/app/_components/NavLinks";
 import { Github, Linkedin, Home } from "lucide-react";
 import Link from "next/link";
 
@@ -12,7 +12,7 @@ const ResumeLayout = (props: Props) => {
 
   return (
     <div className="grid min-h-screen grid-rows-7 lg:grid-cols-6 bg-gray-700">
-      <div className="hidden lg:flex min-h-screen flex-col justify-between bg-gray-800 p-5">
+      <div className="hidden lg:flex lg:min-h-screen flex-col justify-between bg-gray-800 p-5">
         <div className="flex flex-col space-y-5">
           <Link href="/" className="text-3xl font-bold text-white">
             Daniel Pang
@@ -34,7 +34,7 @@ const ResumeLayout = (props: Props) => {
       </div>
 
       <div className="bg-gray-800 p-3  lg:hidden"><NavLinkWithIcon href="/" icon={Home}>Daniel Pang</NavLinkWithIcon></div>
-      <div className="row-span-6 lg:col-span-5 p-5">{children}</div>
+      <div className="max-h-screen row-span-6 lg:col-span-5 p-5 overflow-y-auto">{children}</div>
       
       
 

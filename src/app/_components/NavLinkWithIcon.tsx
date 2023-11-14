@@ -1,5 +1,7 @@
 import { LucideIcon } from "lucide-react";
 import Link from "next/link";
+import NavLinkWithoutIcon from "./NavLinkWithoutIcon";
+
 
 interface Props {
   href: string;
@@ -8,14 +10,14 @@ interface Props {
 }
 
 const NavLinkWithIcon = (props: Props) => {
+  
   const { href, children } = props;
-
   return (
-    <Link href={href} className="text-xl font-semibold text-white">
-      <div className="flex flex-row space-x-2">
-        <props.icon /> <span>{children}</span>
+      <div>
+        <NavLinkWithoutIcon href={href} >
+          <props.icon /> <span>{children}</span>
+        </NavLinkWithoutIcon>
       </div>
-    </Link>
   );
 };
 

@@ -1,7 +1,7 @@
 import Link from "next/link";
-import NavLinks from "../components/NavLinks";
+import NavLinks from "./_components/NavLinks";
 import { Github, Linkedin } from "lucide-react";
-import NavLinkWithIcon from "../components/NavLinkWithIcon";
+import NavLinkWithIcon from "./_components/NavLinkWithIcon";
 
 export default function Home() {
   return (
