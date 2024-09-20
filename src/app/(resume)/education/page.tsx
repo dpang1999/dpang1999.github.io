@@ -4,7 +4,13 @@ const Education = () => {
     return (
         <main className="text-white">
             <h1 className="text-3xl">Education</h1>
-            <Segment title="University of Toronto - Certificate of Cloud Computing & Certificate of DevOps - (June 2023 - Present)">
+            <Segment title="Univeristy of Waterloo - MMath in Computer Science - (May 2024 - Present)">
+                <li>Usage of MATLAB around Linear Algebra topics (e.x. iteratie methods, matrix decomoposition, etc.) </li>
+                <li>Focus on Linear Algebra and Optimization (e.x. least squares, SVD, Simplex, Karush-Kuhn-Tucker, etc.)</li>
+                <li>Wrote a short research course project on preconditioning for iterative methods</li>
+                <li>Some research into programming language concepts such as laze evaluation and code optimization</li>
+            </Segment>
+            <Segment title="University of Toronto - Certificate of Cloud Computing & Certificate of DevOps - (2023)">
                 <li>Understanding of various challenges and implications when selecting cloud services and strategies</li>
                 <li>Ensuring the privacy, compliance, and legal protection of proposed cloud solutions</li>
                 <li>Learn various DevOps tools in theory and in practice (Git, Maven, Jenkins, Docker, Kubernetes, etc.)</li>
