@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client"
 
 import Segment from "@dpang1999/resume/app/_components/Segment"
