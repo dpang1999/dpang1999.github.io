@@ -17,6 +17,19 @@ const Projects = () => {
     return (
         <main className="text-white">
             <h1 className="text-3xl">Projects</h1>
+            <Segment title="CS846 Research Project - Dependencies and Release Frequency in Maven">
+                <li>A research paper for the Software Evolution course based off of the <a className="text-blue-500 visited:text-indigo-500" href="https://2025.msrconf.org/track/msr-2025-mining-challenge?#Call-for-Mining-Challenge-Papers">MSR2025 mining challenge</a></li>
+                <li>Utilized Goblin Weaver, Neo4J, and the Cypher query language to analyze trends in Maven</li>
+                <li>Participated in a double blind conference-style review of peer's papers using EasyChair</li>
+                <li>The paper can be seen  <a className="text-blue-500 visited:text-indigo-500" href="https://drive.google.com/file/d/1p-Hv91kHQqDxTWxOg0kIXnnInwZZrDFQ/view?usp=sharing">here</a></li>
+            </Segment>
+            <Segment title="CS846 Course Project - React Refactor With ts-morph">
+                <li>A course project for the Programming Languages course</li>
+                <li>The CLI application filters out bad patterns and replaces them with reusable components</li>
+                <li>This was accomplished by traversing TypeScript's Abstract Syntax Tree using ts-morph</li>
+                <li>The source code can be seen <a className="text-blue-500 visited:text-indigo-500"
+                 href="https://github.com/dpang1999/typescript-refactor">here</a></li>
+            </Segment>
             <Segment title="CS675 Research Project - Preconditioning for Iterative Methods">
                 <li>A research project around preconditioning matrices for iterative methods to improve efficiency and robustness</li>
                 <li>Serves as both a quick survey onto the topic as well as providing some emperical evaluation</li>
