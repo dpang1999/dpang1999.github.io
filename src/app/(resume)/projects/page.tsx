@@ -32,7 +32,7 @@ const Projects = () => {
             </Segment>
             <Segment title="CS675 Research Project - Preconditioning for Iterative Methods">
                 <li>A research project around preconditioning matrices for iterative methods to improve efficiency and robustness</li>
-                <li>Serves as both a quick survey onto the topic as well as providing some emperical evaluation</li>
+                <li>Serves as both a quick survey onto the topic as well as providing some empirical evaluation</li>
                 <li>Written by and for students with linear algebra backgrounds, such as those from CS675 - Computational Linear Algebra</li>
                 <li>The paper can be viewed <a className="text-blue-500 visited:text-indigo-500"
                  href="https://docs.google.com/document/d/1SGRDgxBdoGyhSBgaATWdWCayd6oMDmbPe0nmxsKtctY/edit?usp=sharing">here</a></li>

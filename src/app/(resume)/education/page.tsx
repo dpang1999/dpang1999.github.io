@@ -4,10 +4,10 @@ const Education = () => {
     return (
         <main className="text-white">
             <h1 className="text-3xl">Education</h1>
-            <Segment title="Univeristy of Waterloo - MMath in Computer Science - (May 2024 - Present)">
+            <Segment title="University of Waterloo - MMath in Computer Science - (May 2024 - Present)">
                 <li>Currently researching the performance of generics in various languages </li>
-                <li>Analyzed and presented research papers on programming languages topics and software evolutionn</li>
-                <li>Usage of MATLAB around Linear Algebra topics (e.x. iteratie methods, matrix decomoposition, etc.) </li>
+                <li>Analyzed and presented research papers on programming languages topics and software evolution</li>
+                <li>Usage of MATLAB around Linear Algebra topics (e.x. interative methods, matrix decomposition, etc.) </li>
                 <li>Wrote a short research project on preconditioning for iterative methods in linear algebra </li>
                 <li>Delivered a project on manipulating Typescript AST to refactor bad patterns in React code </li>
                 
